@@ -80,10 +80,10 @@ runs:
       shell: bash
       run: ls $PLUGINS_PATH -lha
 
-    - name: cat private.txt to console
-      id: cat-private-txt
-      shell: bash
-      run: cat $PLUGINS_PATH/private.txt
+#    - name: cat private.txt to console
+#      id: cat-private-txt
+#      shell: bash
+#      run: cat $PLUGINS_PATH/private.txt
 
     - name: Build the image
       id: tutor-build-image
